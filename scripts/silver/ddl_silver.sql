@@ -1,3 +1,11 @@
+/*
+---------------------------------------------------------------------------------
+CREATING THE DDL TABLES FOR THE DATA AVAILABLE IN THE SOURCE 
+SYSTEMS - CRM AND ERP AND STORE IT IN THE SCHEMA - SILVER: THE TRANSFORMED FORM OF DATA
+---------------------------------------------------------------------------------
+*/
+
+
 --CREATING THE DDL TABLES FOR THE DATA AVAILABLE
 --crm data
 --crm_cust_info
