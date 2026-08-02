@@ -1,3 +1,11 @@
+/*
+-----------------------------------------------------------------------------------------
+THIS PROC WRAPS THE CODE THAT LOAD THE DATA INTO THE TABLES THAT ARE CREATED IN THE SILVER
+SCHEMA. AS IT IS A FULL LOAD, IT FIRST TRUNCATES THE DATA THAT IS CURRENLTY IN THE TABLE 
+AND THE INSERT THE DATA INTO THEM.
+-----------------------------------------------------------------------------------------
+*/
+
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
     PRINT '======================================================';
